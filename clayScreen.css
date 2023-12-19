@@ -1,0 +1,439 @@
+/*  COLOR SCHEME 3
+body: 363942                                       dark gray   363942
+title: 284907                                      dark green  284907
+mainnavig ul: 382513 for border-bottom             light green 5C832F
+mainnavig ul a: 5C832F for background-color        light green 5C832F
+	FFFFFF for text								   white       FFFFFF
+	382513 for border                              brown       382513
+	D8CAA8 for hover/active						   light tan   D8CAA8
+												   light green 5C832F
+mainContent: 363942                                dark gray   363942
+#mainContent p.code: 284907                        dark green  284907
+#mainContent pre: 284907						   dark green  284907
+mainContent p.gallerycaption 382513 for border	   light green 5C832F
+footer 382513 for border-top					   light green 5C832F
+a (link, visited): 382513                          light green 5C832F
+a (hover, active): 284907                          dark green  284907
+a (hover,active): border-bottom 284907             dark green  284907
+h1, h2, h3										   dark green  284907
+*/
+
+* html #mainnavig ul a
+{
+	height: 1px;
+}
+
+body
+{
+	margin: auto;
+	padding: 0;
+	width: 760px;
+	font-family: verdana, helvetica, arial, sans-serif;
+	color: #363942;
+	font-size: 11pt;
+}
+
+#wrapper
+{
+	margin-top: 1em;
+}
+
+
+
+
+/* HEADER ONLY */
+
+#title
+{
+	color: #284907;
+	font-size: 1em;
+	padding: 0.5em 0.5em 0.5em 0em;
+	text-align: left;
+	margin: 0px 0px 0px 0px;
+}
+
+#title h1
+{
+	text-shadow: 4px 3px 2px #c7c7c7;
+	margin: 20px 0px 0px 200px;
+	letter-spacing: 0.1em;
+	font-weight: bolder;
+}
+
+#title p
+{
+	margin: 10px 0px 10px 200px;
+	letter-spacing: 0.2em;
+	font-style: italic;
+}
+
+#title img
+{
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+/* PRIMARY NAVIGATION ONLY */
+
+#mainnavig
+{
+
+}
+
+#mainnavig ul
+{
+	padding-left: 200px;
+	margin-left: 0;
+	list-style-type: none;
+	padding-top: 6px;
+	padding-bottom: 5px;
+	border-bottom: 1px dotted #5C832F;
+}
+
+#mainnavig li
+{
+	display: inline;
+	text-align: center;
+}
+
+#mainnavig ul a
+{
+	width: 8em;
+	background-color: #5C832F;
+	color: #FFFFFF;
+	border: 1px dotted #382513;
+	padding: 5px 15px 5px 15px;
+	margin-right: 5px;
+	text-decoration: none;
+	font-size: 0.8em;
+}
+
+#mainnavig ul a:hover,
+#mainnavig ul a:active
+{
+	color: #D8CAA8;
+}
+
+
+
+
+/* SECONDARY NAVIGATION ONLY */
+
+#secondnavig
+{
+	float: left;
+	width: 160px;
+	margin: 0 0 0 0.5em;
+	padding: 1em 0 0 0;
+}
+
+#secondnavig ul
+{
+	margin: 1em 0em 2.5em 0em;
+	padding: 0;
+}
+
+#secondnavig li
+{
+	font-size: 0.9em;
+	list-style-type: none;
+	line-height: 1.2em;
+	text-indent: 0em;
+	text-align: right;
+	padding: 0 0 1em 0;
+	margin: 0;
+	color: #284907;
+}
+
+#secondnavig li#current
+{
+	font-style: italic;
+}
+
+
+
+
+/* COLUMN CONTENT ONLY */
+
+#mainContent
+{
+	margin: 0 2em 0 200px;
+	color: #363942;
+	text-align: left;
+	padding: 1em 0em 1em 0em;
+}
+
+#mainContent h1
+{
+	text-shadow: 3px 2px 2px #cbcbcb;
+	color: #284907;
+	font-size: 1.5em;	
+	line-height: 1.1em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	padding: 0.5em 0 0.4em 0;
+	margin: 0;
+}
+
+#mainContent h2
+{
+	text-shadow: 3px 2px 2px #c7c7c7;
+	color: #284907;
+	font-size: 1.2em;
+	line-height: 1.1em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	padding: 1.5em 0 0.5em 0;
+	margin: 0;
+}
+
+#mainContent h3
+{
+	text-shadow: 3px 2px 2px #c7c7c7;
+	color: #284907;
+	font-size: 1em;
+	line-height: 1.1em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	padding: 0.5em 0 0.5em 0;
+	margin: 0;
+}
+
+#mainContent p
+{
+	font-size: 0.9em;
+	line-height: 1.4em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	padding: 0 0 1.0em 0;
+	margin: 0;
+}
+
+#mainContent p.code
+{
+	font-family: courier;
+	text-align: left;
+	padding: 0 0 1.0em 2em;
+	color: #284907;
+}
+
+#mainContent p.caption
+{
+	margin: -12px 0 12px 0;
+	font-size: 0.7em;
+}
+
+#mainContent .genus
+{
+	font-style: italic;
+}
+
+#mainContent pre
+{
+	font-family: courier;
+	text-align: left;
+	padding: 0 0 1.0em 2em;
+	font-size: 0.9em;
+	line-height: 1.4em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	margin: 0;
+	color: #284907;
+}
+
+#mainContent p.references
+{
+	text-indent: -1.5em;
+	margin-left: 1.5em;
+}
+
+#mainContent p.equation
+{
+	text-align: center;
+}
+
+#mainContent p#nexttopic
+{
+	font-style: italic;
+}
+
+#mainContent p.hr
+{
+	padding: 0em 0em 0em 0em;
+	margin: 0em 0em 2.0em 0em;
+	border-bottom: 1px dotted #5C832F;
+}
+
+#mainContent p+ul
+{
+	margin: -1em 0em 0em 0em;
+}
+
+#mainContent p+ol
+{
+	margin: -1em 0em 0em 0em;
+}
+
+#mainContent ul
+#mainContent ol
+{
+	margin: 0em 0em 1.0em 0em;
+	padding: 0 0 0 0;
+}
+
+#mainContent li
+{
+	list-style-type: none;
+	font-size: 0.9em;
+	line-height: 1.4em;
+	text-indent: -1.5em;
+	padding: 0 0 0 0em;
+	margin: 0 0 0 0em;
+	text-align: left;
+}
+
+#mainContent img
+{
+	margin: 12px 0 12px 0;
+}
+
+#mainContent img.centered
+{
+	margin: 0 0 0 150px;
+	padding: 0;
+	border-width: 0;
+}
+
+#mainContent img.centered2
+{
+	margin: 0 0 0 50px;
+	padding: 0;
+	border-width: 0;
+}
+
+#mainContent img.galleryraw
+{
+	float: left;
+	width: 260px;
+	padding: 0px 0px 10px 0px;
+	border-width: 0px;
+	margin: 0px;
+}
+
+#mainContent img.galleryinterp
+{
+	float: right;
+	width: 260px;
+	padding: 0px 0px 10px 0px;
+	border-width: 0px;
+	margin: 0px;
+}
+
+#mainContent p.gallerycaption
+{
+	padding: 10px 0px 10px 0px;
+	border-bottom: #5C832F;
+	border-width: 0 0 1px 0;
+	border-style: none none dotted none;
+}
+
+#mainContent .galleryelement
+{
+	padding: 10px 0px 10px 0px;
+	margin: 10px 0 10px 0;
+}
+
+#mainContent table.threecolumns { width: 100%; }
+
+#mainContent table.threecolumns td
+{
+	width: 33%;
+	vertical-align: top;
+}
+
+#mainContent table.threecolumns ul
+{
+	padding: 0;
+	margin: 0 0 0 0.5em;
+	text-align: left;
+}
+
+#mainContent table.threecolumns li
+{
+	text-indent: 0.7em;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+}
+
+#mainContent table.personnel td 
+{
+	vertical-align: top;
+}
+
+#mainContent table.personnel h2 
+{
+	vertical-align: top;
+	margin: 0.5em 0 0 0;
+	padding: 0;
+}
+
+#mainContent a img
+{	border: none;}
+
+
+
+
+
+
+
+
+/* FOOTER ONLY */
+
+#copyright
+{
+	clear: both;
+	text-align: center;
+	padding: 1.0em 0em 1.0em 0em;
+	margin: 0;
+	border-top: 1px dotted #5C832F;
+	text-indent: 0.5em;
+}
+
+#copyright p
+{
+	font-size: 0.7em;
+	margin: 0;
+	padding: 0.5em 0 0 0;
+}
+
+
+
+/* LINKS */
+
+a:link, 
+a:visited
+{
+	color: #5C832F;
+	text-decoration: none;
+	border-width: 0;
+}
+
+a:hover,
+a:active
+{
+	color: #284907;
+	text-decoration: none;
+	border-bottom: #284907;
+	border-width: 0 0 1pt 0;
+	border-style: none none dotted none;
+}
+
+
+
