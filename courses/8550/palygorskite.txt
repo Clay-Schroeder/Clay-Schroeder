@@ -1,0 +1,46 @@
+Palygorskite
+Chiari G, Giustetto R, Ricchiardi G
+European Journal of Mineralogy 15 (2003) 21-33
+Crystal structure refinements of palygorskite and Maya Blue from molecular
+modeling and powder synchrotron diffraction
+Sample: MP
+13.304 17.876 5.251 90 107.01 90 C2/m
+atom     x     y    z
+Si1   .185 .0817 .069
+Si2   .209 .1673 .587
+Mg2      0  .086   .5
+Mg3      0  .207    0
+OH    .092     0  .52
+O1    .069  .099 .117
+O2    .092  .174 .640
+Wat1  .078  .312 -.04
+O3    .225     0 .006
+O4     .25   .25   .5
+O5    .238  .106 .383
+O6    .247  .126 .882
+WatZ1    0  .349   .5
+WatZ2    0  .421    0
+
+Palygorskite
+Chiari G, Giustetto R, Ricchiardi G
+European Journal of Mineralogy 15 (2003) 21-33
+Crystal structure refinements of palygorskite and Maya Blue from molecular
+modeling and powder synchrotron diffraction
+Sample: OP
+12.762 17.882 5.249 90 90 90 Pbmn
+atom     x     y    z
+Si1   .240 .0848 .809
+Si2  .2059 .1667 .326
+Mg2      0  .084   .5
+Mg3      0  .148    0
+OH    .076     0 .288
+O1    .113  .091 .780
+O2    .079  .164 .321
+Wat1  .086  .238 .856
+O3    .275     0 .852
+O4     .25   .25 .378
+O5    .268  .118 .533
+O6    .219  .140 .041
+WatZ1    0  .406   .5
+WatZ2    0 .4278    0
+
