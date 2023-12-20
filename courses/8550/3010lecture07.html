@@ -1,0 +1,282 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;
+      charset=windows-1252">
+    <!-- This file was created with _2 Html_.  Another tool by Group Cortex (http://www.cortex.net/).-->
+    <meta name="GENERATOR" content="Adobe PageMill 3.0 Mac">
+    <title>7 - Lecture notes for GEOL3010</title>
+  </head>
+  <body>
+    <p></p>
+    <center><b>7 - Lecture notes for GEOL3010</b></center>
+    <p></p>
+    <h3>
+      <hr align="left">Crystal Structure</h3>
+    <p><b>Review on Bravais lattice types </b>Why, for example do we
+      have a base-centered tetragonal lattice?</p>
+    <p>See figure below. Full lines delineate a cell that is <i>C</i>-centered.
+
+
+      But the dashed lines show that the centered arrangement is not
+      really a new arrangement and that a primitive cell can be found.
+      In the case below, the primitive cell is not chosen because its
+      volume is smaller, but because it has lower symmetry. Therefore,
+      there is no need to create a <i>P</i>-centered orthorhombic
+      lattice type.</p>
+    <p><a href="TetCTetP.gif"><img src="TetCTetP.gif"
+          naturalsizeflag="0" alt="LATTICE TYPES" border="0" width="521"
+          height="402"> </a></p>
+    <p>In any lattice, a unit cell can be chosen in an infinite number
+      of ways. A unit cell therefore, does not "exist" as an entity in
+      the a lattice. Unit cells are mental constructs of our mind chosen
+      for convenience, simply to conform to the symmetry elements that
+      can be found in the lattice.</p>
+    <p>In fact any of the 14 Bravais lattice types may be referred to a
+      primitive cell.</p>
+    <p>Another example can bee seen in the Face-centered (<b>F</b>)
+      isometric lattice (shown below in solid lines). This can also be
+      represented by a rhombohedral lattice (<b>R</b>) where, <font
+        face="Symbol">a</font> = 60°</p>
+    <p><a href="isoFrhomR.jpeg"><img src="isoFrhomR.jpeg"
+          naturalsizeflag="1" hspace="5" vspace="4" align="bottom"
+          width="526" height="431"> </a></p>
+    <p>Why then do F-centered lattices appear in the list of 14 Bravais
+      lattices? (<i>i.e</i>., why not eliminate the F-centered cell and
+      use the R cell?)</p>
+    <p>The answer lies in the fact that when <i><font face="Symbol">a</font></i>
+      = 60° for an <b>R</b> type lattice, then the unit cell can be
+      described as a lattice with three 4-fold axes, which places it
+      into the more highly symmetrical isometric class. Only one
+      independent variable is needed to describe the unit cell. If <i><font
+          face="Symbol">a</font></i> is not equal to 60°, then the
+      lattice type would not be <b>F</b>-centered isometric and <b>R</b>
+      is chosen. We do it for convenience.</p>
+    <p>We use non-primitive lattices because it allows us to translate
+      points by using simple operators. These are applied to a point of
+      origin, in the directions of the crystallographic axes to generate
+      the lattice points in 3-D space.</p>
+    <h3>
+      <hr align="left">More on lattice directions and zone axis</h3>
+    <p>We can describe the direction through a lattice by a system of
+      zone axis indices. See figure below. Directions are defined by the
+      intercept that a vector from the origin makes with unit cell edge.
+      The point on the unit cell edge is defined by it fractional
+      coordinates.</p>
+    <p><a href="zones.gif"><img src="zones.jpeg" naturalsizeflag="1"
+          hspace="5" vspace="4" align="bottom" width="442" height="306">
+      </a></p>
+    <p>Steps include (1) listing the fractional intercepts, (2) then
+      clearing the fractions. The integer values that result, <i>u, v,
+      </i>and<i> w</i> are then closed with square brackets [<i>uvw</i>]
+      and they define an axis within the lattice. With exception to the
+      isometric system, it is important to note that the [<i>uvw</i>]
+      direction is not perpendicular to corresponding planes with the
+      same (<i>hkl</i>) integer values.</p>
+    <p>Mathematically, the [<i>uvw</i>] direction in a lattice with <b><i>a</i></b><i>
+        , <b>b</b></i> and <b><i>c</i></b> lattice parameters is
+      parallel to the vector <i>u<b>a</b></i> + <i>v<b>b</b></i> + <i>w<b>c</b></i>.</p>
+    <p><a href="uvw.gif"><img src="uvw.gif" naturalsizeflag="0"
+          align="bottom" width="448" height="452"> </a></p>
+    <p>The <b>zone axis</b> is a concept that describes the
+      relationship between a direction in the lattice and a set of
+      planes (<i>e.g.</i>, crystal faces) that parallel the vector
+      direction. This is most easily visualized by comparing the [<i>uvw</i>]
+      vector and the intersection of two planes (<i>e.g.</i>, the edge
+      defined by the intesection of two crystal faces.)</p>
+    <p><a href="zoneaxis.gif"><img src="zoneaxis.jpeg"
+          naturalsizeflag="0" hspace="5" vspace="4" align="bottom"
+          width="435" height="530"> </a></p>
+    <p>If the Miller indices are known for two intersecting crystal
+      faces, then the zone can be readily determined. The technique uses
+      a simple form of matrix algebra that effectively multiplies two
+      vectors (recall that Miller indicies are a type of vector
+      notation).</p>
+    <p>&nbsp;</p>
+    <p>Suppose you want to know the zone (direction in the crystal) that
+      results from the intersection of two faces. Follow these steps.</p>
+    <ol>
+      <li>Write the integer Miller indice values for the first plane
+        twice in a row. </li>
+      <li>Write the integer Miller indice values for the second plance
+        twice in row directly below. </li>
+      <li>Disregard the first and last numbers in each row. </li>
+      <li>Cross multiply each pair of adjacent columns </li>
+      <li>Subtract the product of the upper right to lower left
+        operation from the product of the upper left to lower right
+        operation. </li>
+      <li>Reduce the three integer values to the smallest integer. </li>
+    </ol>
+    <p>
+      <table cellspacing="2" cellpadding="0" border="1" width="200">
+        <tbody>
+          <tr>
+            <td bgcolor="#ff0000" width="16%">
+              <p></p>
+              <center>&nbsp;h<i><sub>1</sub></i></center>
+            </td>
+            <td bgcolor="#00ff00" width="16%">
+              <p></p>
+              <center><i>k<sub>1</sub></i></center>
+            </td>
+            <td bgcolor="#00ff00" width="17%">
+              <p></p>
+              <center><i>l<sub>1</sub></i></center>
+            </td>
+            <td bgcolor="#00ff00" width="17%">
+              <p></p>
+              <center><i>h<sub>1</sub></i></center>
+            </td>
+            <td bgcolor="#00ff00" width="17%">
+              <p></p>
+              <center><i>k<sub>1</sub></i></center>
+            </td>
+            <td bgcolor="#ff0000" width="17%">
+              <p></p>
+              <center><i>l<sub>1</sub></i></center>
+            </td>
+          </tr>
+          <tr>
+            <td bgcolor="#ff0000" width="16%">
+              <p></p>
+              <center>h<i><sub>2</sub></i></center>
+            </td>
+            <td bgcolor="#00ff00" width="16%">
+              <p></p>
+              <center><i>k<sub>2</sub></i></center>
+            </td>
+            <td bgcolor="#00ff00" width="17%">
+              <p></p>
+              <center><i>l<sub>2</sub></i></center>
+            </td>
+            <td bgcolor="#00ff00" width="17%">
+              <p></p>
+              <center><i>h<sub>2</sub></i></center>
+            </td>
+            <td bgcolor="#00ff00" width="17%">
+              <p></p>
+              <center><i>k<sub>2</sub></i></center>
+            </td>
+            <td bgcolor="#ff0000" width="17%">
+              <p></p>
+              <center><i>l<sub>2</sub></i></center>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </p>
+    <p><i>u = k<sub>1</sub> * l<sub>2</sub> - l<sub>1</sub> * k<sub>2</sub></i></p>
+    <p><i>v = l<sub>1</sub> * h<sub>2</sub> - h<sub>1</sub> * l<sub>2</sub></i></p>
+    <p><i>w = h<sub>1</sub> * k<sub>2</sub> - k<sub>1</sub> * h<sub>2</sub></i></p>
+    <p>&nbsp;</p>
+    <p>Here's an example for the intersection of the (100) and (010)
+      faces.</p>
+    <p>
+      <table cellspacing="2" cellpadding="0" border="1" width="200">
+        <tbody>
+          <tr>
+            <td bgcolor="#ff0000" width="16%">
+              <p></p>
+              <center>1</center>
+            </td>
+            <td bgcolor="#00ff00" width="16%">
+              <p></p>
+              <center>0</center>
+            </td>
+            <td bgcolor="#00ff00" width="17%">
+              <p></p>
+              <center>0</center>
+            </td>
+            <td bgcolor="#00ff00" width="17%">
+              <p></p>
+              <center>1</center>
+            </td>
+            <td bgcolor="#00ff00" width="17%">
+              <p></p>
+              <center>0</center>
+            </td>
+            <td bgcolor="#ff0000" width="17%">
+              <p></p>
+              <center>0</center>
+            </td>
+          </tr>
+          <tr>
+            <td bgcolor="#ff0000" width="16%">
+              <p></p>
+              <center>&nbsp;0</center>
+            </td>
+            <td bgcolor="#00ff00" width="16%">
+              <p></p>
+              <center>1</center>
+            </td>
+            <td bgcolor="#00ff00" width="17%">
+              <p></p>
+              <center>0</center>
+            </td>
+            <td bgcolor="#00ff00" width="17%">
+              <p></p>
+              <center>0</center>
+            </td>
+            <td bgcolor="#00ff00" width="17%">
+              <p></p>
+              <center>1</center>
+            </td>
+            <td bgcolor="#ff0000" width="17%">
+              <p></p>
+              <center>0</center>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </p>
+    <p><i>u = (0 * 0) - (0 * 1) = 0</i></p>
+    <p><i>v = (0 * 0) - (1 * 0) = 0</i></p>
+    <p><i>w = (1 * 1) - (0 * 0) = 1</i></p>
+    <p><i>[uvw</i>] = [001]</p>
+    <p><img src="uvw2.gif" naturalsizeflag="3" align="bottom" border="0"
+        width="407" height="480"> </p>
+    <p></p>
+    <hr align="left">
+    <p></p>
+    <p><b>Mineral properties and their relationship to lattice
+        directions</b></p>
+    <p>Some properties are independent of direction in the lattice. This
+      includes the scalar properties of density and heat capacity.</p>
+    <p>Some properties are directionally dependent depending upon the
+      size of the crystal. This includes the effects of surface free
+      energy. When a crystal is large, then the effect of surface free
+      energy relative to the bulk crystal is small. When crystals are
+      small, then surface free energy is important and directional
+      dependence needs to be considered.&nbsp;</p>
+    <p>Vector dependent properties can be described as anisotropic. If a
+      property is independent of direction, then it is referred to being
+      isotropic.&nbsp;Minerals with isometric symmetry generally exhibit
+      isotopic properties.</p>
+    <p>Common sense tells us that the higher the symmetry of the lattice
+      (<i>e.g.</i> isometric) then the more isotropic the properties are
+      going to be. &nbsp;Conversely, the lower the internal symmetry of
+      a mineral, then the more anisotopic its properties will be. Each
+      property of the same mineral must be considered seperately. For
+      example, elastic properties in isometric crystals are generally
+      anisotropic. But, thermal conductivity properties in isometric
+      crystals are generally isotropic.</p>
+    <p>Properties that are directionally dependent include:</p>
+    <ol>
+      <li>Hardness (<i>e.g.</i>, kyanite)</li>
+      <li>Thermal conductivity</li>
+      <li>Electrical conductivity</li>
+      <li>Thermal expansion <br>
+      </li>
+      <li>Diffusion of ions through a crystal</li>
+      <li>External form of crystal (<i>i.e.,</i> growth rate, which is
+        in part related to node density)</li>
+      <li>Dissolutiuon rates<br>
+      </li>
+      <li>Diffraction of X-rays<br>
+      </li>
+      <li>Speed of light or optical properties. (you will hear more
+        about this in a few weeks!) </li>
+    </ol>
+    <br>
+  </body>
+</html>
